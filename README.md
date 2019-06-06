@@ -23,3 +23,6 @@ git push —set-upstream origin master : Push local code on git repo
 git add .  Add little changes
 git commit -m “Your Commit Message”
 git push : push your commit
+git diff : to see the changes u maid
+touch filename/.keep : create an empty file
+git add tutorials/* : add any file inside tutorials directory
