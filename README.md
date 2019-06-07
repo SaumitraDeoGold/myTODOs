@@ -26,3 +26,12 @@ git push : push your commit
 git diff : to see the changes u maid
 touch filename/.keep : create an empty file
 git add tutorials/* : add any file inside tutorials directory
+git diff --staged : to see diff in staging area and main area
+git reset HEAD "path/filename" : undo change maid[git add is reset]
+git add -i : shows all files that are modified and whether or not if they r staged
+mv <folder/filename> <folder>
+git reset HEAD .   : Reset last change
+git checkout -- .   : Cancel deletion of file when it is moved from folder to folder
+rm <folder/filename> : Delete file
+git mv <folder/filename> <folder> : move file from one folder to another n checked in git
+git rm <folder/filename> : delete file in git
