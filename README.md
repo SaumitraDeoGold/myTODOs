@@ -35,3 +35,5 @@ git checkout -- .   : Cancel deletion of file when it is moved from folder to fo
 rm <folder/filename> : Delete file
 git mv <folder/filename> <folder> : move file from one folder to another n checked in git
 git rm <folder/filename> : delete file in git
+vim .gitignore : to create git ignore file
+inside git ignore - *.html : to ignore allhtml files in that directory
