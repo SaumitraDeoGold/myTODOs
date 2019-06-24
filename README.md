@@ -37,3 +37,13 @@ git mv <folder/filename> <folder> : move file from one folder to another n check
 git rm <folder/filename> : delete file in git
 vim .gitignore : to create git ignore file
 inside git ignore - *.html : to ignore allhtml files in that directory
+git log --oneline : see all logs in one line
+git log --graph : graph representaton
+git log -p : commit summary
+git shortlog
+git log --author="author name" : search commits by author name
+git log --grep="idea" : search commits by commit msgs
+git log -- README.md : search by file name
+git log -S"[x]" -p : to check where the todo item was checked off
+git log -- books : see all commits made in books folder
+git log -p --all -S"Windows 10" : see all commits in which windows 10 was used
