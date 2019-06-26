@@ -51,3 +51,5 @@ git branch -b myBranch : create new branch
 git branch : list all branches
 git branch -d myBranch: delete myBranch
 git checkout master : switch to master branch
+git merge clickbait : merge master branch with clickbait branch
+git merge --no-ff <branchname> : merge without fastforward
