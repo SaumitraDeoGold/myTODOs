@@ -47,3 +47,7 @@ git log -- README.md : search by file name
 git log -S"[x]" -p : to check where the todo item was checked off
 git log -- books : see all commits made in books folder
 git log -p --all -S"Windows 10" : see all commits in which windows 10 was used
+git branch -b myBranch : create new branch
+git branch : list all branches
+git branch -d myBranch: delete myBranch
+git checkout master : switch to master branch
