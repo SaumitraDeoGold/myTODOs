@@ -53,3 +53,7 @@ git branch -d myBranch: delete myBranch
 git checkout master : switch to master branch
 git merge clickbait : merge master branch with clickbait branch
 git merge --no-ff <branchname> : merge without fastforward
+git branch -vv : to see if origin master is ahead or not
+git remote add iwantmyrealname https://url - add new remote
+git fetch iwantmyrealname : fetch data from remote
+git remote show origin/remotename : some data on remote
